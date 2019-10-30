@@ -15,7 +15,8 @@
         app:autoPlaying="true"
         app:centerScale="1.3"
         app:itemSpace="20"
-        app:moveSpeed="1.8"/>
+        app:moveSpeed="1.8"
+        app:showIndicator="false"/>
 
     <com.example.library.banner.BannerLayout
         android:id="@+id/recycler_ver"
@@ -23,7 +24,8 @@
         android:layout_height="200dp"
         android:layout_marginTop="10dp"
         app:orientation="vertical"
-        app:showIndicator="false"/>
+        app:showIndicator="false"
+        android:visibility="invisible"/>
 
 
     <Button
@@ -32,7 +34,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:onClick="jump"
-        android:text="查看基础版"/>
+        android:text="查看基础版"
+        android:visibility="invisible"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -40,5 +43,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:onClick="jumpOverFlying"
-        android:text="查看层叠版"/>
+        android:text="查看层叠版"
+        android:visibility="invisible"/>
 </LinearLayout>
